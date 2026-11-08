@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A personal travel journal in photos and videos, from Southeast Asia to North America." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="travel.js" defer></script>
+  <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+  <title>My Travels</title>
+</head>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+  <header class="bg-blue-700 text-white">
+    <div class="container mx-auto px-4 py-12 sm:py-16">
+      <p class="text-sm font-semibold uppercase tracking-widest text-blue-100">A visual travel journal</p>
+      <h1 class="mt-3 text-4xl font-bold sm:text-5xl">My Travels</h1>
+      <p class="mt-4 max-w-2xl text-base text-blue-50 sm:text-lg">Photo and video memories from cities across Southeast Asia, East Asia, and North America.</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto w-full flex-grow px-4 py-10 sm:py-14">
+    <section id="destinations" aria-labelledby="destinations-heading">
+      <div class="mb-8">
+        <p class="text-sm font-semibold uppercase tracking-widest text-blue-700">The journey</p>
+        <h2 id="destinations-heading" class="mt-2 text-3xl font-bold text-gray-900">Explore by region</h2>
+        <p class="mt-2 max-w-2xl text-gray-600">Browse each city's gallery for a short introduction and a few ideas to look out for.</p>
+      </div>
+      <div id="destination-regions" class="space-y-12"></div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 py-8 text-center text-white">
+    <nav aria-label="Social media" class="flex flex-wrap justify-center gap-x-6 gap-y-3">
+      <a href="https://github.com/kmuang" target="_blank" rel="noopener noreferrer" class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-white">GitHub</a>
+      <a href="https://www.instagram.com/noel_muang/" target="_blank" rel="noopener noreferrer" class="hover:text-pink-300 focus:outline-none focus:ring-2 focus:ring-white">Instagram</a>
+      <a href="https://www.linkedin.com/in/khupmuang/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-300 focus:outline-none focus:ring-2 focus:ring-white">LinkedIn</a>
+    </nav>
+    <p class="mt-5 text-sm text-gray-400">© 2025 My Travel Highlights</p>
+  </footer>
+</body>
+</html>
